@@ -1,0 +1,56 @@
+{"keystone": {"owners": {"keystone.conf": "root 42425",
+                        "keystone-paste.ini": "root 42425",
+                        "keystone-paste.ini": "root 42425",
+                        "policy.json": "root 42425",
+                        "logging.conf": "root 42425"
+                        },
+              "permissions": {"keystone.conf": "640",
+                              "keystone-paste.ini": "640",
+                              "keystone-paste.ini": "640",
+                              "policy.json": "640",
+                              "logging.conf": "640"
+                              }
+                },
+  "neutron_api": {"owners": {"neutron.conf": "root 42435",
+                              "plugin.ini": "root 42435",
+                              "policy.json": "root 42435",
+                              "rootwrap.conf": "root root"
+                              },
+                  "permissions": {"neutron.conf": "640",
+                                  "plugin.ini": "640",
+                                  "policy.json": "640",
+                                  "rootwrap.conf": "644"
+                                  }
+                    },
+  "cinder_api": {"owners": {"cinder.conf": "root 42407",
+                            "api-paste.ini":  "root 42407",
+                            "rootwrap.conf":  "root 42407"
+                            },
+                  "permissions": {"cinder.conf": "640",
+                                  "api-paste.ini":  "640",
+                                  "rootwrap.conf":  "640"
+                                  }
+                  },
+  "nova_api": {"owners": {"nova.conf": "root 42436",
+                              "api-paste.ini": "root 42436",
+                              "policy.json": "root 42436",
+                              "rootwrap.conf": "root 42436"
+                              },
+                  "permissions": {"nova.conf": "640",
+                                  "api-paste.ini": "640",
+                                  "policy.json": "640",
+                                  "rootwrap.conf": "640"
+                                  }
+                },
+  "nova_compute": {"owners": {"nova.conf": "root 42436",
+                              "api-paste.ini": "root 42436",
+                              "policy.json": "root 42436",
+                              "rootwrap.conf": "root 42436"
+                              },
+                  "permissions": {"nova.conf": "640",
+                                  "api-paste.ini": "640",
+                                  "policy.json": "640",
+                                  "rootwrap.conf": "640"
+                                  }
+                }
+}

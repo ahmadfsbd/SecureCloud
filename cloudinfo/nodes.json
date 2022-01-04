@@ -1,0 +1,1 @@
+[{"ip": "192.168.24.10", "flavor": "compute", "id": "bcd21a3e-fdf6-4059-88b8-a31878f96037", "name": "overcloud-compute-0"}, {"ip": "192.168.24.11", "flavor": "control", "id": "4bca0742-fc8c-45c6-b7be-2832abedef55", "name": "overcloud-controller-0"}]
